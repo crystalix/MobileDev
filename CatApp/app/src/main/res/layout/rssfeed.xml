@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="285dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_weight="0.91"
+        android:id="@+id/mRSS"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Back"
+        android:id="@+id/back"
+        android:layout_gravity="bottom|center"
+        android:clickable="true" />
+
+
+</LinearLayout>
