@@ -4,8 +4,11 @@ package com.example.emma.catapp;
  * Created by Emma on 04/12/2016.
  */
 
+<<<<<<< HEAD:app/src/main/java/com/example/emma/catapp/databaseManager.java
 //This class creates the database for the cat facts
 
+=======
+>>>>>>> b1e04e1fba75fc424a5c53657c9ab24683151892:app/src/main/java/com/example/emma/catapp/databaseManager.java
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -18,8 +21,11 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+<<<<<<< HEAD:app/src/main/java/com/example/emma/catapp/databaseManager.java
 import java.util.ArrayList;
 import java.util.List;
+=======
+>>>>>>> b1e04e1fba75fc424a5c53657c9ab24683151892:app/src/main/java/com/example/emma/catapp/databaseManager.java
 import java.util.Locale;
 
 
@@ -28,10 +34,15 @@ public class databaseManager extends SQLiteOpenHelper {
     private static final int DB_VER = 1;
     private static final String DB_PATH = "data/data/com.example.emma.catapp/databases/";
     private static final String DB_NAME = "catBreeds.s3db";
+<<<<<<< HEAD:app/src/main/java/com/example/emma/catapp/databaseManager.java
 
     private static final String TBL_CAT_INFO = "catBreeds";
 
     //database table fields
+=======
+    private static final String TBL_CAT_INFO = "catBreeds";
+
+>>>>>>> b1e04e1fba75fc424a5c53657c9ab24683151892:app/src/main/java/com/example/emma/catapp/databaseManager.java
     public static final String COL_CATNAME = "Name";
     public static final String COL_HAIRLENGTH = "HairLength";
     public static final String COL_CHARACTERISTICS = "Characteristics";
