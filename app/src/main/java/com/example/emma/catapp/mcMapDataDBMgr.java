@@ -20,10 +20,13 @@ import java.util.Locale;
  * Created by Emma on 06/12/2016.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 //This class handles the creation of the database
 =======
 >>>>>>> b1e04e1fba75fc424a5c53657c9ab24683151892
+=======
+>>>>>>> origin/master
 public class mcMapDataDBMgr extends SQLiteOpenHelper {
 
     private static final int DB_VER = 1;
@@ -98,10 +101,14 @@ public class mcMapDataDBMgr extends SQLiteOpenHelper {
         try{
             String dbPath = DB_PATH + DB_NAME;
 <<<<<<< HEAD
+<<<<<<< HEAD
             db = SQLiteDatabase.openDatabase(dbPath, null, SQLiteDatabase.OPEN_READONLY);
 =======
             db = SQLiteDatabase.openDatabase(dbPath, null, SQLiteDatabase.OPEN_READWRITE);
 >>>>>>> b1e04e1fba75fc424a5c53657c9ab24683151892
+=======
+            db = SQLiteDatabase.openDatabase(dbPath, null, SQLiteDatabase.OPEN_READWRITE);
+>>>>>>> origin/master
             db.setLocale(Locale.getDefault());
             db.setVersion(1);
 
@@ -110,9 +117,12 @@ public class mcMapDataDBMgr extends SQLiteOpenHelper {
             Log.e("SQLHelper","Database not Found!");
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> b1e04e1fba75fc424a5c53657c9ab24683151892
+=======
+>>>>>>> origin/master
         }
 
         if(db != null){

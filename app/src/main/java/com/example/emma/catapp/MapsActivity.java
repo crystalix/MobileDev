@@ -12,10 +12,13 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 //created by the maps api, not used
 
 =======
 >>>>>>> b1e04e1fba75fc424a5c53657c9ab24683151892
+=======
+>>>>>>> origin/master
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap googleMap;
