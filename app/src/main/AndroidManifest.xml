@@ -57,10 +57,13 @@
         <activity android:name=".MapsActivity">
 
         </activity>
+<<<<<<< HEAD:app/src/main/AndroidManifest.xml
 
         <activity android:name=".mcSaveDataOutput">
 
         </activity>
+=======
+>>>>>>> origin/master:app/src/main/AndroidManifest.xml
     </application>
 
 </manifest>

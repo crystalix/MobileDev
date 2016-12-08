@@ -6,10 +6,13 @@ import java.io.Serializable;
  * Created by Emma on 06/12/2016.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 //This class includes the variables from the location database that are needed for the map
 =======
 >>>>>>> b1e04e1fba75fc424a5c53657c9ab24683151892
+=======
+>>>>>>> origin/master
 public class mcMapData implements Serializable {
 
 // *********************************************

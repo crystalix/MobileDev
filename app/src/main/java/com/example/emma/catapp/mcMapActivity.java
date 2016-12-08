@@ -34,6 +34,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 //This class handles the output for the map screen, making a map and adding markers to it
 //The map function does not work
 public class mcMapActivity extends AppCompatActivity implements OnMapReadyCallback {
@@ -43,19 +44,27 @@ public class mcMapActivity extends AppCompatActivity implements OnMapReadyCallba
     List<Float> latitude;
     List<Float> longitude;
 =======
+=======
+>>>>>>> origin/master
 public class mcMapActivity extends AppCompatActivity implements OnMapReadyCallback {
 
     FragmentManager fmAboutDialogue; // Lab 3 Dialogue fragment
     List<mcMapData> mapDataLst;
+<<<<<<< HEAD
 >>>>>>> b1e04e1fba75fc424a5c53657c9ab24683151892
+=======
+>>>>>>> origin/master
     private Marker[] mapDataMarkerList = new Marker[5];
     private GoogleMap mapCatShelters;        //Google Map variable
     private float markerColours[] = {210.0f, 120.0f, 300.0f, 330.0f, 270.0f};
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> b1e04e1fba75fc424a5c53657c9ab24683151892
+=======
+>>>>>>> origin/master
     private static final LatLng latlangGlasgowCentre = new LatLng(55.8651, -4.258);    //The Latitude and Longitude for the centre of East Kilbride
 
     @Override
@@ -64,7 +73,10 @@ public class mcMapActivity extends AppCompatActivity implements OnMapReadyCallba
         setContentView(R.layout.mc_map_view); // app main UI screen
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/master
         // Action Bar
         android.support.v7.app.ActionBar ccActionBar = getSupportActionBar();
         if (ccActionBar != null) {
@@ -73,11 +85,15 @@ public class mcMapActivity extends AppCompatActivity implements OnMapReadyCallba
             ccActionBar.setDisplayUseLogoEnabled(true);
         }
 
+<<<<<<< HEAD
 >>>>>>> b1e04e1fba75fc424a5c53657c9ab24683151892
+=======
+>>>>>>> origin/master
         // Lab 3 Dialogue fragment
         fmAboutDialogue = this.getFragmentManager();
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         //mapDataLst = new ArrayList<mcMapData>();
         names = new ArrayList<String>();
@@ -99,6 +115,8 @@ public class mcMapActivity extends AppCompatActivity implements OnMapReadyCallba
 
        // mapDataLst = mapDB.allMapData();
 =======
+=======
+>>>>>>> origin/master
         mapDataLst = new ArrayList<mcMapData>();
         mcMapDataDBMgr mapDB = new mcMapDataDBMgr(this, "catLocations.s3db", null, 1);
         try {
@@ -108,7 +126,10 @@ public class mcMapActivity extends AppCompatActivity implements OnMapReadyCallba
         }
 
         mapDataLst = mapDB.allMapData();
+<<<<<<< HEAD
 >>>>>>> b1e04e1fba75fc424a5c53657c9ab24683151892
+=======
+>>>>>>> origin/master
         SetUpMap();
     }
 
@@ -133,6 +154,7 @@ public class mcMapActivity extends AppCompatActivity implements OnMapReadyCallba
     public void AddMarkers() {
         MarkerOptions marker;
 <<<<<<< HEAD
+<<<<<<< HEAD
         //mcMapData mapData;
         String mrkTitle;
         String mrkText;
@@ -146,6 +168,8 @@ public class mcMapActivity extends AppCompatActivity implements OnMapReadyCallba
 
             marker = SetMarker(mrkTitle, mrkText, new LatLng(latitude.get(i), longitude.get(i)), markerColours[i], true);
 =======
+=======
+>>>>>>> origin/master
         mcMapData mapData;
         String mrkTitle;
         String mrkText;
@@ -156,7 +180,10 @@ public class mcMapActivity extends AppCompatActivity implements OnMapReadyCallba
             mrkTitle = mapData.getName();
             mrkText = mapData.getName();
             marker = SetMarker(mrkTitle, mrkText, new LatLng(mapData.getLatitude(), mapData.getLongitude()), markerColours[i], true);
+<<<<<<< HEAD
 >>>>>>> b1e04e1fba75fc424a5c53657c9ab24683151892
+=======
+>>>>>>> origin/master
             mapDataMarkerList[i] = mapCatShelters.addMarker(marker);    //create a maker and add to the venue markers list
         }
     }
